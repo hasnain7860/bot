@@ -33,7 +33,7 @@ const videoDocuments = [
 
     url:"https://drive.google.com/uc?export=download&id=1r2e_pg0bBHg503pH-dzafb9-iL17Ekkt",
 
-    dateTime: '2-7-2024 4:00 AM',
+    dateTime: '2-7-2024 1:00 AM',
     fileName: "m"
     
   },
@@ -44,7 +44,7 @@ const videoDocuments = [
     type: "text",
 
     url: '', // Replace with your Google Drive direct download link
-    dateTime: '2-7-2024 4:01 AM',
+    dateTime: '2-7-2024 1:01 AM',
     fileName: 'm',
     message: "Class 8&9 week 3 day 2 video lecture part 1 "
   },
@@ -54,7 +54,7 @@ const videoDocuments = [
 
     url:"https://drive.google.com/uc?export=download&id=1qxjC_mI7JsLPmYoAJh8OIA-0lHf1AIDD",
 
-    dateTime: '2-7-2024 4:02 AM',
+    dateTime: '2-7-2024 1:02 AM',
     fileName: "m"
     
   
@@ -68,7 +68,7 @@ const videoDocuments = [
     type: "text",
 
     url: '', // Replace with your Google Drive direct download link
-    dateTime: '2-7-2024 4:03 AM',
+    dateTime: '2-7-2024 1:03 AM',
     fileName: 'm',
     message: "Class 8&9 week 3 day 2 video lecture part 2"
   },
@@ -80,6 +80,7 @@ const videoDocuments = [
     fileName: "m"
     
   },
+  
       {
 
 
@@ -90,19 +91,6 @@ const videoDocuments = [
     dateTime: '2-7-2024 4:05 AM',
     fileName: 'm',
     message: "Class 8&9 week 3 day 2 work  "
-  },
-        {
-
-
-
-
-
-    type: "text",
-
-    url: '', // Replace with your Google Drive direct download link
-    dateTime: '1-7-2024 6:40 AM',
-    fileName: 'm',
-    message: ". "
   },
     {
 
