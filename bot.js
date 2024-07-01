@@ -10,11 +10,11 @@ const express = require('express');
 const app = express();
 
 // Dummy endpoint to keep server alive
-app.get('/', (req, res) => res.send('Bot is running'));
-
-app.listen(process.env.PORT || 3000, () => {
-    console.log('Server is running...');
-});
+// app.get('/', (req, res) => res.send('Bot is running'));
+// 
+// app.listen(process.env.PORT || 3000, () => {
+//     console.log('Server is running...');
+// });
 const moment = require('moment-timezone');
 
 // Log the current server time
