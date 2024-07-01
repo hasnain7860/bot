@@ -6,6 +6,23 @@ const moment = require('moment');
 const apiInstanceId = process.env.API_INSTANCE_ID;
 const apiToken = process.env.API_TOKEN;
 const groupId = process.env.GROUP_ID;
+const express = require('express');
+const app = express();
+
+// Dummy endpoint to keep server alive
+app.get('/', (req, res) => res.send('Bot is running'));
+
+app.listen(process.env.PORT || 3000, () => {
+    console.log('Server is running...');
+});
+const moment = require('moment-timezone');
+
+// Log the current server time
+console.log('Server time:', new Date().toISOString());
+
+// Log the current time in various time zones
+console.log('Current time in UTC:', moment.utc().format());
+console.log('Current time in Asia/Karachi:', moment.tz('Asia/Karachi').format());
 
 
 
