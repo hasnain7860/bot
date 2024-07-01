@@ -6,8 +6,8 @@ const cron = require('node-cron');
 const apiInstanceId = process.env.API_INSTANCE_ID;
 const apiToken = process.env.API_TOKEN;
 const groupId = process.env.GROUP_ID;
-const express = require('express');
-const app = express();
+// const express = require('express');
+//const app = express();
 
 // Dummy endpoint to keep server alive
 // app.get('/', (req, res) => res.send('Bot is running'));
