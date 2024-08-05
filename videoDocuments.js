@@ -1,5 +1,4 @@
 const videoDocuments = [
-[
   {
     "type": "text",
     "message": "class 8 & 9 photo gallery website project",
@@ -55,7 +54,5 @@ const videoDocuments = [
     "dateTime": "5-8-2024 2:00 AM",
     "fileName": "class 6 & 7 week 8 day 1"
   }
-]
-
 ];
 module.exports = videoDocuments;
